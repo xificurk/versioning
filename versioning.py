@@ -14,7 +14,7 @@ __author__ = "Petr Morávek (xificurk@gmail.com)"
 __copyright__ = "Copyright (C) 2009-2010 Petr Morávek"
 __license__ = "LGPL 3.0"
 
-__version__ = "0.9.0"
+__version__ = "0.9.1"
 
 from platform import python_version as _python_version
 import re
@@ -142,7 +142,7 @@ class VersionInfo:
     def __eq__(self, other):
         return self.__cmp__(other) == 0
 
-    def __neq__(self, other):
+    def __ne__(self, other):
         return self.__cmp__(other) != 0
 
     def __lt__(self, other):
