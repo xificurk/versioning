@@ -1,5 +1,9 @@
 CHANGES
 ============================================================================
 
+Release 0.9.1 (2011-08-15)
+    [FIX] Python 2.x compatibility.
+    [FIX] Comparison method bug.
+
 Release 0.9.0 (2011-08-07)
     [CHG] First release.

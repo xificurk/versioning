@@ -27,7 +27,7 @@ def python_version():
     return VersionInfo(_python_version())
 
 
-class VersionInfo:
+class VersionInfo(object):
     """
     Version string container with comparison methods.
 
